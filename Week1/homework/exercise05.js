@@ -3,8 +3,10 @@ console.log(z);
 let a = Math.round(z);
 console.log(a);
 if (a > z) {
-    console.log(a)
+  let x = a
+
+  console.log(x)
 }
-    else {
-      console.log(z)
-    }
+else {
+  console.log(z)
+}
