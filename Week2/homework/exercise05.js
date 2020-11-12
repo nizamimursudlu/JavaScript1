@@ -1,13 +1,6 @@
-const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
+//function noop()
 
-// Write your code below
-for (let i = 0; i < rapperArray.length; i++) {
-  if (rapperArrayc = "'Notorious B.I.G.'") {
-    break;
-  }
-  console.log(rapperArray[i]);
+function multyply(numberA, numberB) {
+  return numberA * numberB;
 }
-
-console.log("And if you don't know, now you know.")
-
-
+multyply(3, 4); // ?
