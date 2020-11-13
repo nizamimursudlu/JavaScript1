@@ -1,4 +1,4 @@
-//function noop()
+
 
 function multyply(numberA, numberB) {
   return numberA * numberB;

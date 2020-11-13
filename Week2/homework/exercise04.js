@@ -14,5 +14,15 @@ let readingList = [
     Autor: "Paulo Coelho",
     alreadyRead: true
   }
-]
-console.log(readingList[0])
+];
+for (let i = 0; i < readingList.length; i++) {
+
+  console.log(readingList[i].Title + " by " + readingList[i].Autor);
+
+  if (readingList[i].alreadyRead === true) {
+    console.log("You already read " + readingList[i].Title);
+  }
+
+  else { console.log("You still need to read " + readingList[i].Title); }
+}
+
