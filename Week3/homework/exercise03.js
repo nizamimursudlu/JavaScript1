@@ -6,11 +6,7 @@ const locations = ["Amsterdam", "Paris", "London", "Madrid", "Berlin"]
 const jobs = ["super star", "doctor", "vet", "manager", "fireman"]
 function tellFortune(numChildren, partnerNames, locations, jobs) {
   let randomNumber = Math.floor(Math.random() * 5)
-  let fortunedChildrenfort = numChildren[randomNumber];
-  let fortunedPartner = partnerNames[randomNumber];
-  let fortunedLocation = locations[randomNumber];
-  let fortunedJob = jobs[randomNumber];
-  console.log("You will be a " + fortunedJob + " in " + fortunedLocation + ", married to " + fortunedPartner + " with " + fortunedChildrenfort + " kids.")
+  console.log("You will be a " + jobs[randomNumber] + " in " + locations[randomNumber] + ", married to " + partnerNames[randomNumber] + " with " + numChildren[randomNumber] + " kids.")
 }
 tellFortune(numChildren, partnerNames, locations, jobs)
 tellFortune(numChildren, partnerNames, locations, jobs)

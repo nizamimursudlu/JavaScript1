@@ -11,16 +11,8 @@ function calculateTotalPrice() {
   for (let i = 0; i < onlyPrice.length; i++) {
     sum += onlyPrice[i]
   }
-  console.log("Total: €" + sum)
+  console.log("Total: € " + sum)
+
+
 }
 calculateTotalPrice(cartForParty)
-
-
-
-
-//for (i = 0; i < cartForParty.length; i++)
-  //  a
-//}
-
-
-
