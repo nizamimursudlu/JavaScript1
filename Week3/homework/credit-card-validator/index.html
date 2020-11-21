@@ -9,30 +9,33 @@
 </head>
 
 <body>
-  <div id="container" id="bank-crad-icon">
-    <h1>CARD</h1>
+  <div id="container">
+    <h1><img src="bank-icon.png" id="bank-card-icon">CARD</h1>
+
     <div id="enter-number">
-      <h3>Card number</h3>
-      <input type="number" placeholder="Enter Card Number">
+      <h3>Kaartnummer</h3>
+      <input type="number" placeholder="Voer Het Kaartnummer In">
+      <img src="lock.png" id="lock-icon">
     </div>
     <div id="checked-number">
       <input type="text" class="blink_me">
-      <div id="bank-card-details">
-        <div class="Exp-CVV-PC">Expiration</div>
-        <div class="Exp-CVV-PC">CVV</div>
-        <div class="Exp-CVV-PC">Postal Code</div>
-      </div>
-      <div id="inputs-for-details">
-        <div>
-          <input type="number" placeholder="09/24"></div>
-        <div>
-          <input type="number" placeholder="123"></div>
-        <div>
-          <input type="number" placeholder="1234AA"></div>
-      </div>
-      <div id="pay-with-card">
-        <input type="text" placeholder="Pay With Card"> </div>
     </div>
+    <div id="bank-card-details">
+      <div class="Exp-CVV-PC">Geldig tot</div>
+      <div class="Exp-CVV-PC">CVV</div>
+      <div class="Exp-CVV-PC">Postcode</div>
+    </div>
+    <div id="inputs-for-details">
+      <div>
+        <input type="number" placeholder="09/24"></div>
+      <div>
+        <input type="number" placeholder="123"></div>
+      <div>
+        <input type="number" placeholder="1234AA"></div>
+    </div>
+    <div id="pay-with-card">
+      <input type="text" placeholder="Betalen met kaart"> </div>
+
   </div>
 </body>
 <script src="app.js"></script>

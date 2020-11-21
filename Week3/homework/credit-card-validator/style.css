@@ -15,39 +15,50 @@ body{
 }
 h1 {
   color: black;
-  padding: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-left: 30px;
 }
 h3 {
+  color: black;
   padding-left: 30px;
 }
 
 #container {
+  background-color: lightcoral;
   color:darkgray;
-  background: white;
   height: 350px;
   width: 500px;
   margin-left: calc(50% - 250px);
   margin-top: 250px;
   border-radius: 25px;
-  border: 1px gray solid;
+  border: 2px black solid;
 }
-#bank-card-icon{
-  
-}
+#bank-card-icon { 
+  width: 8%; 
+  margin-right: 5px;
+ }
+ #lock-icon {
+   width: 7%;
+   margin-left: 5px;
+   margin-bottom: -7px;
+ }
 #enter-number {
   height: 90px;
-  padding-top: 15px;
+  padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
-  border-top: 2px gray solid;
+  border-top: 10px black solid;
+  
 }
 
 #checked-number input {
-  
+  background-color: lightcoral;
   text-align: center;
   width: 100%;
-  /*border: white;*/
   color: red;
+  border: transparent;
+  font-size: 20px 
 }
 #enter-number input {
   font-size: 25px;
@@ -56,6 +67,7 @@ h3 {
   height: 50px;
   width: 80%;
   border-radius: 4px;
+  outline: none;
 }
 #bank-card-details  {
   
@@ -76,21 +88,27 @@ h3 {
   width: 120px;
   border-radius: 4px;
   justify-content: space-between;
+  text-align: center;
+  outline: none;
+  background-color: lightgray;
 }
 .Exp-CVV-PC {
   width: 128px;
   margin-left: 30px;
   text-align: left;
+  color: black;
 }
 #pay-with-card {
   margin-top:20px;
   text-align: center;
 }
 #pay-with-card input {
+  text-align: center;
   height: 50px;
   border-radius: 80px;
   width: 80%;
-
+  outline: transparent;
+  background-color: lightgray;
 }
 .blink_me {
   animation: blinker 1s linear infinite;
